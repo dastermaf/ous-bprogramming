@@ -3,5 +3,5 @@
 int main(void) {
     printf("My favorite number is %d.\n", 15);
 
-    return 0;
+    return (0);
 }
