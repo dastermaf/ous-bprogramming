@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("%d", 15-37)
+    printf("My favorite number is %d.\n", 15);
 
     return 0;
 }
