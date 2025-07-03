@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int x, y; // ｘとyはint型の変数を宣言
+    int x, y; // ｘとyはint型の変数を宣言（初期化子）
 
     x = 57; // ｘに57を代入
     y = x + 12; // yにx + 12を代入

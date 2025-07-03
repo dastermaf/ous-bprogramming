@@ -5,7 +5,7 @@
 int main(void) {
 
     int x = 57;
-    int y = x + 12;
+    int y = x + 12; // 代入せずに初期化を行っている。
 
     printf("xの値は%dです。\n", x);
     printf("yの値は%dです。\n", y);
