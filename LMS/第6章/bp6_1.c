@@ -2,6 +2,7 @@
 
 int main(void) {
     double chance_of_rain, threshold = 50.0;
+
     printf("Enter the chance of rain (in percentage): ");
     scanf("%lf", &chance_of_rain);
 
