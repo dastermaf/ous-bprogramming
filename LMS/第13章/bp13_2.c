@@ -9,11 +9,11 @@ int main(void) {
     scores[3] = 2;
     scores[4] = 4;
 
-    printf("Enter score for sutent 1: %d\n", scores[0]);
-    printf("Enter score for sutent 2: %d\n", scores[1]);
-    printf("Enter score for sutent 3: %d\n", scores[2]);
-    printf("Enter score for sutent 4: %d\n", scores[3]);
-    printf("Enter score for sutent 5: %d\n", scores[4]);
+    printf("Enter score for student 1: %d\n", scores[0]);
+    printf("Enter score for student 2: %d\n", scores[1]);
+    printf("Enter score for student 3: %d\n", scores[2]);
+    printf("Enter score for student 4: %d\n", scores[3]);
+    printf("Enter score for student 5: %d\n", scores[4]);
 
     return (0);
 }
