@@ -7,7 +7,7 @@ int main(void) {
     printf("整数を入力せよ: ");
     scanf("%d", &num);
 
-    printf("%dの符号を反転した値は%dです。\n", +num, -num); //単項演算子
+    printf("%dの符号を反転した値は%dです。\n", num, -num); //単項演算子
 
     return 0;
 }
