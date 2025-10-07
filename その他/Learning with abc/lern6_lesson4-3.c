@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int no;
@@ -10,6 +10,6 @@ int main() {
         printf("%d ", no);
         no--;
     }
-    printf("\n")
+    printf("\n");
     
 }
