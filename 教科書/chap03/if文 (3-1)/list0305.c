@@ -8,7 +8,7 @@ int main(void) {
     printf("整数を入力せよ： \n");
     scanf("%d", &num);
 
-    if (num)
+    if (num) // (num != 0)と同じ
         puts("その数は0ではありません。");
     else
         puts("その数は0です。");
