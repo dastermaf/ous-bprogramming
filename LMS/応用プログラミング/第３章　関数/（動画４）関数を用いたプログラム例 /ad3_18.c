@@ -9,7 +9,7 @@ char to_upper_char(char c) {
 }
 
 // Function to check if a character is an alphabet
-int is_alphabet (char c) {
+int is_alphabet(char c) {
     if ((c>= 'a' && c <='z') || (c = 'A' && c <= 'Z')) {
         return (1); // True
     }

@@ -1,11 +1,12 @@
 #include <stdio.h>
 // Function to calculate power
-int power (int base, int exp) {
+int power(int base, int exp) {
     int result = 1;
     int i;
-    for ( i = 0; i < exp; i++) {
-        result = base;
+    for (i = 0; i < exp; i++) {
+        result *= base;
     }
+
     return(result);
 }
 // Function to return the maximum of two numbers
@@ -17,7 +18,7 @@ int max(int a, int b) {
     }
 }
 
-int main (void) {
+int main(void) {
     int num1 = 2;
     int num2 = 3;
     int num3 = 5;
