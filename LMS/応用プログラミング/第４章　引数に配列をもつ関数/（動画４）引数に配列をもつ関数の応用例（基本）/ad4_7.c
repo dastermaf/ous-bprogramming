@@ -17,5 +17,6 @@ int main(void) {
     int array_size = 5;
     int min_element = find_min(my_data, array_size);
     printf("Minimum element: %d\n", min_element);
+
     return(0);
 }
