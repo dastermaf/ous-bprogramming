@@ -3,12 +3,12 @@
 // Function to check if a character is whitespace
 int is_whitespace_char(char c) {
     switch(c) {
-        case ' ' :
+        case '  ':
         case '\t':
         case '\n':
         case '\r':
-        case '\f':
-        case '\v':
+        case '\f': 
+        case '\v': 
             return (1);
         default:
             return(0);
@@ -29,7 +29,7 @@ void trim_whitespace (char str[]) {
     int len = my_strlen(str);
     int start = 0;
     int end = len - 1;
-    int i;
+    int i; // чтош да, тут пиздец, сложно было, мне мой друг объяснял через аналогию с книжней полкой, именно вот это (чек снизу)
 
     // Trim leading whitespace
     while(is_whitespace_char(str[start])){
@@ -45,12 +45,13 @@ void trim_whitespace (char str[]) {
     for (i = start; i<= end; i++) {
         str[i - start] = str[i];
     }
+    
     str[i - start] = '\0'; // Null-terminate the new string
 }
 
 int main(void) {
     char str1[]=" Hello World";
-    char str2[]= "\t\tTrim Me\n\n";
+    char str2[]= "\t\tTrim Me\n\n"; // оно ещё здесь есть
     char str3 []= "NoTrim";
     printf("Original: \"%s\"\n", str1);
     trim_whitespace (str1);

@@ -12,16 +12,16 @@ int my_strlen(char str[]){
 // Function to replace all occurrences of a character with another
 void replace_char(char str[], char old_char, char new_char) {
     int i;
-    int len = my_strlen(str);
-    for(i = 0 ; i < len; i++){
-        if (str[i] == old_char) {
-            str[i] = new_char;
+    int len = my_strlen(str); // абъясни паже вот это, что именно
+    for(i = 0 ; i < len; i++){ // i пробегает по всему массиву, пока его длинна не закончится, ии 
+        if (str[i] == old_char) {  // и если текущий символ равен заменяемому символу то заменяет его на новый
+            str[i] = new_char; // аок
         }
     }
 }
 
 int main(void) {
-    char str1[] = "hello World";
+    char str1[] = "Hello World";
     char str2[] = "programming";
     char str3[] = "apple";
 
