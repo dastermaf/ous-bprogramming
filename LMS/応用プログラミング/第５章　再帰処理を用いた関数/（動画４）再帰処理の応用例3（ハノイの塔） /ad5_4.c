@@ -30,3 +30,18 @@ int main(void) {
     hanoi (num_disks, 'A', 'B', 'C'); // Solve for 3 disks, pegs A, B, C
     return(0);
 }
+
+// hanoi (3, 'A', 'B', 'C')
+    // hanoi (2, 'A', 'C', 'B')
+        // hanoi (1, 'A', 'B', 'C')
+            // Move disk 1 from 'A' to 'C'
+        // Move disk 2 from 'A' to 'B'
+        // hanoi (1, 'C', 'A', 'B')
+            // Move disk 1 from 'C' to 'B'
+    // Move disk 3 from 'A' to 'C'
+    // hanoi (2, 'B', 'A', 'C')
+        // hanoi(1, 'B', 'C', 'A')
+            // Move disk 1 from 'B' to 'A'
+    // Move disk 2 from B to C
+    // hanoi(1, 'A', 'B', 'C')
+            // Move disk 1 from 'A' to 'C'
